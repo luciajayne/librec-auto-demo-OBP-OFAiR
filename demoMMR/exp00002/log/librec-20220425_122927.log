@@ -1,0 +1,13 @@
+22/04/25 12:29:29 INFO TextDataConvertor: Dataset: [../dataOFAiR/ratings.csv]
+
+22/04/25 12:29:29 INFO TextDataConvertor: DataSet: ..\dataOFAiR\ratings.csv is finished
+
+22/04/25 12:29:30 INFO TextDataConvertor: rating Scale: [0.0, 1.0, 2.0, 3.0, 4.0, 5.0]
+
+22/04/25 12:29:30 INFO TextDataConvertor: user number: 671,	 item number is: 2830
+
+22/04/25 12:29:30 INFO TextDataModel: Transform data to Convertor successfully!
+
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (malloc) failed to allocate 65552 bytes for Chunk::new

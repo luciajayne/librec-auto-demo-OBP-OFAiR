@@ -1,0 +1,59 @@
+22/04/25 12:30:44 INFO TextDataConvertor: Dataset: [../dataOFAiR/ratings.csv]
+22/04/25 12:30:44 INFO TextDataConvertor: DataSet: ..\dataOFAiR\ratings.csv is finished
+22/04/25 12:30:44 INFO TextDataConvertor: rating Scale: [0.0, 1.0, 2.0, 3.0, 4.0, 5.0]
+22/04/25 12:30:44 INFO TextDataConvertor: user number: 671,	 item number is: 2830
+22/04/25 12:30:44 INFO TextDataModel: Transform data to Convertor successfully!
+22/04/25 12:30:45 INFO TextDataModel: Split data to train Set and test Set successfully!
+22/04/25 12:30:45 INFO TextDataModel: Feature appender loaded successfully!
+22/04/25 12:30:45 INFO TextDataConvertor: Dataset: [../dataOFAiR/split/cv_1/train.txt]
+22/04/25 12:30:46 INFO TextDataConvertor: DataSet: ..\dataOFAiR\split\cv_1\train.txt is finished
+22/04/25 12:30:46 INFO TextDataConvertor: rating Scale: [1.0, 2.0, 3.0, 4.0, 5.0]
+22/04/25 12:30:46 INFO TextDataConvertor: user number: 671,	 item number is: 2830
+22/04/25 12:30:46 INFO TextDataModel: Transform data to Convertor successfully!
+22/04/25 12:30:46 INFO TextDataConvertor: Dataset: [../dataOFAiR/split/cv_1/test.txt]
+22/04/25 12:30:46 INFO TextDataConvertor: DataSet: ..\dataOFAiR\split\cv_1\test.txt is finished
+22/04/25 12:30:46 INFO TextDataConvertor: rating Scale: [1.0, 2.0, 3.0, 4.0, 5.0]
+22/04/25 12:30:46 INFO TextDataConvertor: user number: 671,	 item number is: 2830
+22/04/25 12:30:46 INFO TextDataModel: Split data to train Set and test Set successfully!
+22/04/25 12:30:46 INFO TextDataModel: Data cardinality of training is 29740
+22/04/25 12:30:46 INFO TextDataModel: Data cardinality of testing is 14840
+22/04/25 12:30:46 INFO TextDataModel: Feature appender loaded successfully!
+22/04/25 12:30:46 INFO OracleAlgo: Job Setup completed.
+** Training model in OracleAlgo **
+22/04/25 12:30:46 INFO TextDataConvertor: Dataset: [exp00002/result/out-1.txt]
+java.nio.file.NoSuchFileException: exp00002\result\out-1.txt
+	at sun.nio.fs.WindowsException.translateToIOException(Unknown Source)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at sun.nio.fs.WindowsFileAttributeViews$Basic.readAttributes(Unknown Source)
+	at sun.nio.fs.WindowsFileAttributeViews$Basic.readAttributes(Unknown Source)
+	at sun.nio.fs.WindowsFileSystemProvider.readAttributes(Unknown Source)
+	at java.nio.file.Files.readAttributes(Unknown Source)
+	at java.nio.file.FileTreeWalker.getAttributes(Unknown Source)
+	at java.nio.file.FileTreeWalker.visit(Unknown Source)
+	at java.nio.file.FileTreeWalker.walk(Unknown Source)
+	at java.nio.file.Files.walkFileTree(Unknown Source)
+	at java.nio.file.Files.walkFileTree(Unknown Source)
+	at net.that_recsys_lab.auto.AutoDataAppender.readDataAuto(AutoDataAppender.java:141)
+	at net.that_recsys_lab.auto.AutoDataAppender.processData(AutoDataAppender.java:113)
+	at net.that_recsys_lab.auto.OracleAlgo.LoadResults(OracleAlgo.java:105)
+	at net.that_recsys_lab.auto.OracleAlgo.trainModel(OracleAlgo.java:37)
+	at net.librec.recommender.AbstractRecommender.train(AbstractRecommender.java:147)
+	at net.that_recsys_lab.auto.cmd.ReRunEvalCmd.recalculateMetrics(ReRunEvalCmd.java:68)
+	at net.that_recsys_lab.auto.cmd.ReRunEvalCmd.executeEval(ReRunEvalCmd.java:51)
+	at net.that_recsys_lab.auto.cmd.ReRunEvalCmd.execute(ReRunEvalCmd.java:29)
+	at net.that_recsys_lab.auto.cmd.SeqCmd.execute(SeqCmd.java:22)
+	at net.that_recsys_lab.auto.cmd.SeqCmd.execute(SeqCmd.java:22)
+	at net.that_recsys_lab.auto.AutoRecommenderJob.runJob(AutoRecommenderJob.java:198)
+	at net.that_recsys_lab.auto.SingleJobRunner.main(SingleJobRunner.java:27)
+Exception in thread "main" java.lang.NullPointerException
+	at net.that_recsys_lab.auto.OracleAlgo.LoadResults(OracleAlgo.java:110)
+	at net.that_recsys_lab.auto.OracleAlgo.trainModel(OracleAlgo.java:37)
+	at net.librec.recommender.AbstractRecommender.train(AbstractRecommender.java:147)
+	at net.that_recsys_lab.auto.cmd.ReRunEvalCmd.recalculateMetrics(ReRunEvalCmd.java:68)
+	at net.that_recsys_lab.auto.cmd.ReRunEvalCmd.executeEval(ReRunEvalCmd.java:51)
+	at net.that_recsys_lab.auto.cmd.ReRunEvalCmd.execute(ReRunEvalCmd.java:29)
+	at net.that_recsys_lab.auto.cmd.SeqCmd.execute(SeqCmd.java:22)
+	at net.that_recsys_lab.auto.cmd.SeqCmd.execute(SeqCmd.java:22)
+	at net.that_recsys_lab.auto.AutoRecommenderJob.runJob(AutoRecommenderJob.java:198)
+	at net.that_recsys_lab.auto.SingleJobRunner.main(SingleJobRunner.java:27)

@@ -1,0 +1,79 @@
+22/05/02 09:54:31 INFO TextDataConvertor: Dataset: [../dataOFAiR/ratings.csv]
+22/05/02 09:54:31 INFO TextDataConvertor: DataSet: ../dataOFAiR/ratings.csv is finished
+22/05/02 09:54:31 INFO TextDataConvertor: rating Scale (real): 0.5 to 5.0
+22/05/02 09:54:31 INFO TextDataConvertor: user number: 253,	 item number is: 2756
+22/05/02 09:54:31 INFO TextDataModel: Transform data to Convertor successfully!
+22/05/02 09:54:31 INFO TextDataModel: Split data to train Set and test Set successfully!
+22/05/02 09:54:31 INFO TextDataModel: Feature appender loaded successfully!
+22/05/02 09:54:31 INFO TextDataConvertor: Dataset: [../dataOFAiR/split/cv_1/train.txt]
+22/05/02 09:54:31 INFO TextDataConvertor: DataSet: ../dataOFAiR/split/cv_1/train.txt is finished
+22/05/02 09:54:31 INFO TextDataConvertor: rating Scale (real): 0.5 to 5.0
+22/05/02 09:54:31 INFO TextDataConvertor: user number: 253,	 item number is: 2756
+22/05/02 09:54:31 INFO TextDataModel: Transform data to Convertor successfully!
+22/05/02 09:54:31 INFO TextDataConvertor: Dataset: [../dataOFAiR/split/cv_1/test.txt]
+22/05/02 09:54:31 INFO TextDataConvertor: DataSet: ../dataOFAiR/split/cv_1/test.txt is finished
+22/05/02 09:54:31 INFO TextDataConvertor: rating Scale (real): 0.5 to 5.0
+22/05/02 09:54:31 INFO TextDataConvertor: user number: 253,	 item number is: 2756
+22/05/02 09:54:32 INFO TextDataModel: Split data to train Set and test Set successfully!
+22/05/02 09:54:32 INFO TextDataModel: Data cardinality of training is 23214
+22/05/02 09:54:32 INFO TextDataModel: Data cardinality of testing is 11608
+22/05/02 09:54:32 INFO TextDataModel: Feature appender loaded successfully!
+22/05/02 09:54:32 INFO OracleAlgo: Job Setup completed.
+** Training model in OracleAlgo **
+22/05/02 09:54:32 INFO TextDataConvertor: Dataset: [exp00000/result/out-1.txt]
+22/05/02 09:54:32 INFO TextDataConvertor: DataSet: exp00000/result/out-1.txt is finished
+22/05/02 09:54:32 INFO TextDataConvertor: user number: 253,	 item number is: 2756
+22/05/02 09:54:32 INFO OracleAlgo: Job Train completed.
+22/05/02 09:54:32 INFO OracleAlgo: begin recommend
+22/05/02 09:54:32 INFO OracleAlgo: end recommend
+22/05/02 09:54:32 INFO RecommenderJob: Evaluator info:NormalizedDCGEvaluator is 0.0020896568475365163
+22/05/02 09:54:32 INFO RecommenderJob: Evaluator info:PrecisionEvaluator is 0.0026086956521739137
+22/05/02 09:54:32 INFO RecommenderJob: Evaluator info:PStatisticalParityEvaluator is -0.2562845849802362
+22/05/02 09:54:32 INFO TextDataConvertor: Dataset: [../dataOFAiR/split/cv_2/train.txt]
+22/05/02 09:54:32 INFO TextDataConvertor: DataSet: ../dataOFAiR/split/cv_2/train.txt is finished
+22/05/02 09:54:32 INFO TextDataConvertor: rating Scale (real): 0.5 to 5.0
+22/05/02 09:54:32 INFO TextDataConvertor: user number: 253,	 item number is: 2756
+22/05/02 09:54:32 INFO TextDataModel: Transform data to Convertor successfully!
+22/05/02 09:54:32 INFO TextDataConvertor: Dataset: [../dataOFAiR/split/cv_2/test.txt]
+22/05/02 09:54:32 INFO TextDataConvertor: DataSet: ../dataOFAiR/split/cv_2/test.txt is finished
+22/05/02 09:54:32 INFO TextDataConvertor: rating Scale (real): 0.5 to 5.0
+22/05/02 09:54:32 INFO TextDataConvertor: user number: 253,	 item number is: 2756
+22/05/02 09:54:32 INFO TextDataModel: Split data to train Set and test Set successfully!
+22/05/02 09:54:32 INFO TextDataModel: Data cardinality of training is 23215
+22/05/02 09:54:32 INFO TextDataModel: Data cardinality of testing is 11607
+22/05/02 09:54:32 INFO TextDataModel: Feature appender loaded successfully!
+22/05/02 09:54:32 INFO OracleAlgo: Job Setup completed.
+** Training model in OracleAlgo **
+22/05/02 09:54:32 INFO TextDataConvertor: Dataset: [exp00000/result/out-2.txt]
+22/05/02 09:54:32 INFO TextDataConvertor: DataSet: exp00000/result/out-2.txt is finished
+22/05/02 09:54:32 INFO TextDataConvertor: user number: 253,	 item number is: 2756
+22/05/02 09:54:32 INFO OracleAlgo: Job Train completed.
+22/05/02 09:54:32 INFO OracleAlgo: begin recommend
+22/05/02 09:54:32 INFO OracleAlgo: end recommend
+22/05/02 09:54:32 INFO RecommenderJob: Evaluator info:NormalizedDCGEvaluator is 0.002635216001887409
+22/05/02 09:54:32 INFO RecommenderJob: Evaluator info:PrecisionEvaluator is 0.003083003952569171
+22/05/02 09:54:32 INFO RecommenderJob: Evaluator info:PStatisticalParityEvaluator is -0.22845849802371543
+22/05/02 09:54:32 INFO TextDataConvertor: Dataset: [../dataOFAiR/split/cv_3/train.txt]
+22/05/02 09:54:32 INFO TextDataConvertor: DataSet: ../dataOFAiR/split/cv_3/train.txt is finished
+22/05/02 09:54:32 INFO TextDataConvertor: rating Scale (real): 0.5 to 5.0
+22/05/02 09:54:32 INFO TextDataConvertor: user number: 253,	 item number is: 2756
+22/05/02 09:54:32 INFO TextDataModel: Transform data to Convertor successfully!
+22/05/02 09:54:32 INFO TextDataConvertor: Dataset: [../dataOFAiR/split/cv_3/test.txt]
+22/05/02 09:54:32 INFO TextDataConvertor: DataSet: ../dataOFAiR/split/cv_3/test.txt is finished
+22/05/02 09:54:32 INFO TextDataConvertor: rating Scale (real): 0.5 to 5.0
+22/05/02 09:54:32 INFO TextDataConvertor: user number: 253,	 item number is: 2756
+22/05/02 09:54:32 INFO TextDataModel: Split data to train Set and test Set successfully!
+22/05/02 09:54:32 INFO TextDataModel: Data cardinality of training is 23215
+22/05/02 09:54:32 INFO TextDataModel: Data cardinality of testing is 11607
+22/05/02 09:54:32 INFO TextDataModel: Feature appender loaded successfully!
+22/05/02 09:54:32 INFO OracleAlgo: Job Setup completed.
+** Training model in OracleAlgo **
+22/05/02 09:54:32 INFO TextDataConvertor: Dataset: [exp00000/result/out-3.txt]
+22/05/02 09:54:32 INFO TextDataConvertor: DataSet: exp00000/result/out-3.txt is finished
+22/05/02 09:54:32 INFO TextDataConvertor: user number: 253,	 item number is: 2756
+22/05/02 09:54:32 INFO OracleAlgo: Job Train completed.
+22/05/02 09:54:32 INFO OracleAlgo: begin recommend
+22/05/02 09:54:32 INFO OracleAlgo: end recommend
+22/05/02 09:54:32 INFO RecommenderJob: Evaluator info:NormalizedDCGEvaluator is 0.004230109965356677
+22/05/02 09:54:32 INFO RecommenderJob: Evaluator info:PrecisionEvaluator is 0.0049011857707509906
+22/05/02 09:54:32 INFO RecommenderJob: Evaluator info:PStatisticalParityEvaluator is -0.28063241106719344

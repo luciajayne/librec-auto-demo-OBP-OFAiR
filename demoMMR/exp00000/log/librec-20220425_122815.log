@@ -1,0 +1,23 @@
+22/04/25 12:28:15 INFO TextDataConvertor: Dataset: [../dataOFAiR/ratings.csv]
+22/04/25 12:28:16 INFO TextDataConvertor: DataSet: ..\dataOFAiR\ratings.csv is finished
+22/04/25 12:28:16 INFO TextDataConvertor: rating Scale: [0.0, 1.0, 2.0, 3.0, 4.0, 5.0]
+22/04/25 12:28:16 INFO TextDataConvertor: user number: 671,	 item number is: 2830
+22/04/25 12:28:16 INFO TextDataModel: Transform data to Convertor successfully!
+22/04/25 12:28:19 INFO TextDataModel: Split data to train Set and test Set successfully!
+22/04/25 12:28:19 INFO TextDataModel: Feature appender loaded successfully!
+22/04/25 12:28:19 INFO RecommenderJob: SplitCMD: START - Splitting training and testing.
+22/04/25 12:28:19 INFO RecommenderJob: SplitCMD: Splitting training and testing with 0.8% ratio on fold 1.
+22/04/25 12:28:19 INFO TextDataModel: Split data to train Set and test Set successfully!
+22/04/25 12:28:19 INFO TextDataModel: Data cardinality of training is 29740
+22/04/25 12:28:19 INFO TextDataModel: Data cardinality of testing is 14840
+22/04/25 12:28:19 INFO RecommenderJob: SplitCMD: START - Splitting training and testing.
+22/04/25 12:28:20 INFO RecommenderJob: SplitCMD: Splitting training and testing with 0.8% ratio on fold 2.
+22/04/25 12:28:20 INFO TextDataModel: Split data to train Set and test Set successfully!
+22/04/25 12:28:20 INFO TextDataModel: Data cardinality of training is 29701
+22/04/25 12:28:20 INFO TextDataModel: Data cardinality of testing is 14879
+22/04/25 12:28:20 INFO RecommenderJob: SplitCMD: START - Splitting training and testing.
+22/04/25 12:28:20 INFO RecommenderJob: SplitCMD: Splitting training and testing with 0.8% ratio on fold 3.
+22/04/25 12:28:20 INFO TextDataModel: Split data to train Set and test Set successfully!
+22/04/25 12:28:20 INFO TextDataModel: Data cardinality of training is 29719
+22/04/25 12:28:20 INFO TextDataModel: Data cardinality of testing is 14861
+22/04/25 12:28:20 INFO RecommenderJob: Average Evaluation Result of Cross Validation:

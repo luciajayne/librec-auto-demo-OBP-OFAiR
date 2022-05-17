@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<!-- Configuration file for CIKM 2021 demo  
+	 Part 02: Demonstrating black box optimization with optuna -->
+
+<librec-auto>
+	<random-seed>202001</random-seed>
+	<thread-count>1</thread-count>
+	<library src="system">default-algorithms.xml</library>
+	
+	<!-- DATA SECTION -->
+	<data>
+		<data-dir>../data</data-dir>
+		<format>UIR</format>
+		<data-file format="text">ratings.csv</data-file>
+	</data>
+	
+	<!-- SPLITTER SECTION -->
+	<splitter>
+		<model count="3">kcv</model>
+		<save>true</save>
+	</splitter>
+
+
+	
+	<!-- ALGORITHM SECTION -->
+	<alg ref="alg:biasedmf">
+		<similarity type="item">cos</similarity>
+		<iterator-max>25</iterator-max> <!-- Way too few iterations to be meaningful -->
+		<item-reg>
+            <value>0.001</value>
+            <value>0.01</value>
+        </item-reg>
+		<num-factors>20</num-factors>
+		<!--
+		<iterator-max>25</iterator-max>
+		<user-reg><lower>0.000</lower><upper>0.1</upper></user-reg>
+		<item-reg><lower>0.000</lower><upper>0.1</upper></item-reg>
+		<num-factors>50</num-factors>
+		-->
+	</alg>
+
+	<!-- METRICS SECTION -->
+	<metric>
+		<ranking>true</ranking>
+		<list-size>10</list-size>
+		<class>ndcg,precision</class>
+	</metric>
+	
+	<!-- POST-PROCESSING SECTION -->
+	<post>
+		<script lang="python3" src="system">
+			<script-name>result_graphics.py</script-name>
+			<param name="browser">true</param>
+		</script> 
+	</post> 
+
+</librec-auto>

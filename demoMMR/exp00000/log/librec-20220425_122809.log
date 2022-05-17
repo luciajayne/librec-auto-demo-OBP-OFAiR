@@ -1,0 +1,13 @@
+22/04/25 12:28:09 INFO TextDataConvertor: Dataset: [../dataOFAiR/ratings.csv]
+22/04/25 12:28:09 INFO TextDataConvertor: DataSet: ..\dataOFAiR\ratings.csv is finished
+22/04/25 12:28:10 INFO TextDataConvertor: rating Scale: [0.0, 1.0, 2.0, 3.0, 4.0, 5.0]
+22/04/25 12:28:10 INFO TextDataConvertor: user number: 671,	 item number is: 2830
+22/04/25 12:28:10 INFO TextDataModel: Transform data to Convertor successfully!
+22/04/25 12:28:10 INFO TextDataModel: Split data to train Set and test Set successfully!
+22/04/25 12:28:10 INFO TextDataModel: Feature appender loaded successfully!
+22/04/25 12:28:10 INFO RecommenderJob: CheckCmd: START
+22/04/25 12:28:10 INFO RecommenderJob: CheckCmd: Checking class names
+22/04/25 12:28:10 INFO RecommenderJob: Warning: rec.similarity.class is null.
+22/04/25 12:28:10 INFO RecommenderJob: CheckCmd: Checking files and paths
+22/04/25 12:28:10 INFO RecommenderJob: CheckCmd: FINISH
+22/04/25 12:28:10 INFO RecommenderJob: Average Evaluation Result of Cross Validation:

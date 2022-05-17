@@ -1,0 +1,121 @@
+22/04/25 12:29:33 INFO TextDataConvertor: Dataset: [../dataOFAiR/ratings.csv]
+22/04/25 12:29:33 INFO TextDataConvertor: DataSet: ..\dataOFAiR\ratings.csv is finished
+22/04/25 12:29:33 INFO TextDataConvertor: rating Scale: [0.0, 1.0, 2.0, 3.0, 4.0, 5.0]
+22/04/25 12:29:33 INFO TextDataConvertor: user number: 671,	 item number is: 2830
+22/04/25 12:29:33 INFO TextDataModel: Transform data to Convertor successfully!
+22/04/25 12:29:34 INFO TextDataModel: Split data to train Set and test Set successfully!
+22/04/25 12:29:34 INFO TextDataModel: Feature appender loaded successfully!
+22/04/25 12:29:34 INFO TextDataConvertor: Dataset: [../dataOFAiR/split/cv_1/train.txt]
+22/04/25 12:29:34 INFO TextDataConvertor: DataSet: ..\dataOFAiR\split\cv_1\train.txt is finished
+22/04/25 12:29:34 INFO TextDataConvertor: rating Scale: [1.0, 2.0, 3.0, 4.0, 5.0]
+22/04/25 12:29:34 INFO TextDataConvertor: user number: 671,	 item number is: 2830
+22/04/25 12:29:34 INFO TextDataModel: Transform data to Convertor successfully!
+22/04/25 12:29:34 INFO TextDataConvertor: Dataset: [../dataOFAiR/split/cv_1/test.txt]
+22/04/25 12:29:35 INFO TextDataConvertor: DataSet: ..\dataOFAiR\split\cv_1\test.txt is finished
+22/04/25 12:29:35 INFO TextDataConvertor: rating Scale: [1.0, 2.0, 3.0, 4.0, 5.0]
+22/04/25 12:29:35 INFO TextDataConvertor: user number: 671,	 item number is: 2830
+22/04/25 12:29:35 INFO TextDataModel: Split data to train Set and test Set successfully!
+22/04/25 12:29:35 INFO TextDataModel: Data cardinality of training is 29740
+22/04/25 12:29:35 INFO TextDataModel: Data cardinality of testing is 14840
+22/04/25 12:29:35 INFO TextDataModel: Feature appender loaded successfully!
+22/04/25 12:29:35 INFO RecommenderJob: ExpCMD: START - Executing recommender job on 1.
+22/04/25 12:29:35 INFO NMFRecommender: Job Setup completed.
+22/04/25 12:29:38 INFO NMFRecommender: NMFRecommender iter 0: loss = 10528.23466473536, delta_loss = -10528.234
+22/04/25 12:29:39 INFO NMFRecommender: NMFRecommender iter 1: loss = 9594.034361498587, delta_loss = 934.2003
+22/04/25 12:29:40 INFO NMFRecommender: NMFRecommender iter 2: loss = 9166.69639681475, delta_loss = 427.33795
+22/04/25 12:29:41 INFO NMFRecommender: NMFRecommender iter 3: loss = 8815.563442139959, delta_loss = 351.13297
+22/04/25 12:29:43 INFO NMFRecommender: NMFRecommender iter 4: loss = 8502.864443442886, delta_loss = 312.699
+22/04/25 12:29:50 INFO NMFRecommender: NMFRecommender iter 5: loss = 8218.344716944861, delta_loss = 284.5197
+22/04/25 12:29:53 INFO NMFRecommender: NMFRecommender iter 6: loss = 7956.503271077912, delta_loss = 261.84143
+22/04/25 12:29:54 INFO NMFRecommender: NMFRecommender iter 7: loss = 7713.608678564339, delta_loss = 242.89459
+22/04/25 12:29:56 INFO NMFRecommender: NMFRecommender iter 8: loss = 7486.924517074989, delta_loss = 226.68416
+22/04/25 12:29:57 INFO NMFRecommender: NMFRecommender iter 9: loss = 7274.362913196783, delta_loss = 212.5616
+22/04/25 12:29:58 INFO NMFRecommender: NMFRecommender iter 10: loss = 7074.285579146133, delta_loss = 200.07733
+22/04/25 12:29:58 INFO NMFRecommender: Job Train completed.
+22/04/25 12:29:58 INFO RecommenderJob: ExpCMD: COMPLETE
+22/04/25 12:29:58 INFO RecommenderJob: EvalCMD: START
+22/04/25 12:29:58 INFO NMFRecommender: begin recommend
+22/04/25 12:29:59 INFO NMFRecommender: end recommend
+22/04/25 12:29:59 INFO RecommenderJob: Evaluator info:NormalizedDCGEvaluator is 7.119163978634199E-5
+22/04/25 12:29:59 INFO RecommenderJob: Evaluator info:PrecisionEvaluator is 1.5037593984962408E-4
+22/04/25 12:29:59 INFO RecommenderJob: Evaluator info:PStatisticalParityEvaluator is -0.10105263157894762
+22/04/25 12:29:59 INFO NMFRecommender: begin recommend
+22/04/25 12:29:59 INFO NMFRecommender: end recommend
+22/04/25 12:29:59 INFO RecommenderJob: Result path is exp00003/result/out-1.txt
+22/04/25 12:29:59 INFO RecommenderJob: EvalCMD: COMPLETE.
+22/04/25 12:29:59 INFO TextDataConvertor: Dataset: [../dataOFAiR/split/cv_2/train.txt]
+22/04/25 12:29:59 INFO TextDataConvertor: DataSet: ..\dataOFAiR\split\cv_2\train.txt is finished
+22/04/25 12:29:59 INFO TextDataConvertor: rating Scale: [1.0, 2.0, 3.0, 4.0, 5.0]
+22/04/25 12:29:59 INFO TextDataConvertor: user number: 671,	 item number is: 2830
+22/04/25 12:29:59 INFO TextDataModel: Transform data to Convertor successfully!
+22/04/25 12:29:59 INFO TextDataConvertor: Dataset: [../dataOFAiR/split/cv_2/test.txt]
+22/04/25 12:29:59 INFO TextDataConvertor: DataSet: ..\dataOFAiR\split\cv_2\test.txt is finished
+22/04/25 12:29:59 INFO TextDataConvertor: rating Scale: [1.0, 2.0, 3.0, 4.0, 5.0]
+22/04/25 12:29:59 INFO TextDataConvertor: user number: 671,	 item number is: 2830
+22/04/25 12:30:00 INFO TextDataModel: Split data to train Set and test Set successfully!
+22/04/25 12:30:00 INFO TextDataModel: Data cardinality of training is 29701
+22/04/25 12:30:00 INFO TextDataModel: Data cardinality of testing is 14879
+22/04/25 12:30:00 INFO TextDataModel: Feature appender loaded successfully!
+22/04/25 12:30:00 INFO RecommenderJob: ExpCMD: START - Executing recommender job on 2.
+22/04/25 12:30:00 INFO NMFRecommender: Job Setup completed.
+22/04/25 12:30:01 INFO NMFRecommender: NMFRecommender iter 0: loss = 10515.365397616943, delta_loss = -10515.365
+22/04/25 12:30:02 INFO NMFRecommender: NMFRecommender iter 1: loss = 9577.446495072874, delta_loss = 937.9189
+22/04/25 12:30:03 INFO NMFRecommender: NMFRecommender iter 2: loss = 9142.714513169227, delta_loss = 434.732
+22/04/25 12:30:04 INFO NMFRecommender: NMFRecommender iter 3: loss = 8786.957204179627, delta_loss = 355.75732
+22/04/25 12:30:07 INFO NMFRecommender: NMFRecommender iter 4: loss = 8471.811307320279, delta_loss = 315.1459
+22/04/25 12:30:08 INFO NMFRecommender: NMFRecommender iter 5: loss = 8186.326132669606, delta_loss = 285.48517
+22/04/25 12:30:10 INFO NMFRecommender: NMFRecommender iter 6: loss = 7924.650991246609, delta_loss = 261.67514
+22/04/25 12:30:11 INFO NMFRecommender: NMFRecommender iter 7: loss = 7682.865810586523, delta_loss = 241.78519
+22/04/25 12:30:12 INFO NMFRecommender: NMFRecommender iter 8: loss = 7458.005368024781, delta_loss = 224.86044
+22/04/25 12:30:15 INFO NMFRecommender: NMFRecommender iter 9: loss = 7247.711033432219, delta_loss = 210.29434
+22/04/25 12:30:17 INFO NMFRecommender: NMFRecommender iter 10: loss = 7050.117312655533, delta_loss = 197.59372
+22/04/25 12:30:17 INFO NMFRecommender: Job Train completed.
+22/04/25 12:30:17 INFO RecommenderJob: ExpCMD: COMPLETE
+22/04/25 12:30:17 INFO RecommenderJob: EvalCMD: START
+22/04/25 12:30:17 INFO NMFRecommender: begin recommend
+22/04/25 12:30:18 INFO NMFRecommender: end recommend
+22/04/25 12:30:18 INFO RecommenderJob: Evaluator info:NormalizedDCGEvaluator is 2.964313238033393E-4
+22/04/25 12:30:18 INFO RecommenderJob: Evaluator info:PrecisionEvaluator is 4.4977511244377816E-4
+22/04/25 12:30:18 INFO RecommenderJob: Evaluator info:PStatisticalParityEvaluator is -0.2002998500749611
+22/04/25 12:30:18 INFO NMFRecommender: begin recommend
+22/04/25 12:30:18 INFO NMFRecommender: end recommend
+22/04/25 12:30:18 INFO RecommenderJob: Result path is exp00003/result/out-2.txt
+22/04/25 12:30:18 INFO RecommenderJob: EvalCMD: COMPLETE.
+22/04/25 12:30:18 INFO TextDataConvertor: Dataset: [../dataOFAiR/split/cv_3/train.txt]
+22/04/25 12:30:18 INFO TextDataConvertor: DataSet: ..\dataOFAiR\split\cv_3\train.txt is finished
+22/04/25 12:30:18 INFO TextDataConvertor: rating Scale: [1.0, 2.0, 3.0, 4.0, 5.0]
+22/04/25 12:30:18 INFO TextDataConvertor: user number: 671,	 item number is: 2830
+22/04/25 12:30:18 INFO TextDataModel: Transform data to Convertor successfully!
+22/04/25 12:30:18 INFO TextDataConvertor: Dataset: [../dataOFAiR/split/cv_3/test.txt]
+22/04/25 12:30:18 INFO TextDataConvertor: DataSet: ..\dataOFAiR\split\cv_3\test.txt is finished
+22/04/25 12:30:18 INFO TextDataConvertor: rating Scale: [1.0, 2.0, 3.0, 4.0, 5.0]
+22/04/25 12:30:18 INFO TextDataConvertor: user number: 671,	 item number is: 2830
+22/04/25 12:30:18 INFO TextDataModel: Split data to train Set and test Set successfully!
+22/04/25 12:30:18 INFO TextDataModel: Data cardinality of training is 29719
+22/04/25 12:30:18 INFO TextDataModel: Data cardinality of testing is 14861
+22/04/25 12:30:18 INFO TextDataModel: Feature appender loaded successfully!
+22/04/25 12:30:18 INFO RecommenderJob: ExpCMD: START - Executing recommender job on 3.
+22/04/25 12:30:18 INFO NMFRecommender: Job Setup completed.
+22/04/25 12:30:20 INFO NMFRecommender: NMFRecommender iter 0: loss = 10503.2470633578, delta_loss = -10503.247
+22/04/25 12:30:22 INFO NMFRecommender: NMFRecommender iter 1: loss = 9612.514772770686, delta_loss = 890.7323
+22/04/25 12:30:25 INFO NMFRecommender: NMFRecommender iter 2: loss = 9182.737966231585, delta_loss = 429.7768
+22/04/25 12:30:27 INFO NMFRecommender: NMFRecommender iter 3: loss = 8825.233818913066, delta_loss = 357.50415
+22/04/25 12:30:29 INFO NMFRecommender: NMFRecommender iter 4: loss = 8507.084865837709, delta_loss = 318.14896
+22/04/25 12:30:30 INFO NMFRecommender: NMFRecommender iter 5: loss = 8218.46763065558, delta_loss = 288.61725
+22/04/25 12:30:31 INFO NMFRecommender: NMFRecommender iter 6: loss = 7953.708111731404, delta_loss = 264.75952
+22/04/25 12:30:33 INFO NMFRecommender: NMFRecommender iter 7: loss = 7708.8224670948175, delta_loss = 244.88565
+22/04/25 12:30:34 INFO NMFRecommender: NMFRecommender iter 8: loss = 7480.829543764404, delta_loss = 227.99292
+22/04/25 12:30:35 INFO NMFRecommender: NMFRecommender iter 9: loss = 7267.435096851667, delta_loss = 213.39444
+22/04/25 12:30:36 INFO NMFRecommender: NMFRecommender iter 10: loss = 7066.8478715059955, delta_loss = 200.58722
+22/04/25 12:30:36 INFO NMFRecommender: Job Train completed.
+22/04/25 12:30:36 INFO RecommenderJob: ExpCMD: COMPLETE
+22/04/25 12:30:36 INFO RecommenderJob: EvalCMD: START
+22/04/25 12:30:36 INFO NMFRecommender: begin recommend
+22/04/25 12:30:36 INFO NMFRecommender: end recommend
+22/04/25 12:30:36 INFO RecommenderJob: Evaluator info:NormalizedDCGEvaluator is 4.3246899999561006E-4
+22/04/25 12:30:36 INFO RecommenderJob: Evaluator info:PrecisionEvaluator is 7.496251874062968E-4
+22/04/25 12:30:36 INFO RecommenderJob: Evaluator info:PStatisticalParityEvaluator is -0.23268365817091258
+22/04/25 12:30:36 INFO NMFRecommender: begin recommend
+22/04/25 12:30:36 INFO NMFRecommender: end recommend
+22/04/25 12:30:36 INFO RecommenderJob: Result path is exp00003/result/out-3.txt
+22/04/25 12:30:37 INFO RecommenderJob: EvalCMD: COMPLETE.

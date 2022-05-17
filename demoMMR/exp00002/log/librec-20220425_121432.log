@@ -1,0 +1,4 @@
+Error occurred during initialization of VM
+Unable to allocate 64896KB bitmaps for parallel garbage collection for the requested 2076672KB heap.
+Error: Could not create the Java Virtual Machine.
+Error: A fatal exception has occurred. Program will exit.
